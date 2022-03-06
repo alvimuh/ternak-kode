@@ -1,0 +1,13 @@
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+    color: white !important;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+    color: white !important;
+    font-size: small;
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after{
+    font-size: large!important;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+    font-size: large!important;
+}

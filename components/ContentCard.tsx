@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
 import "swiper/css";
 
-type Props = {
+export type ContentCardProps = {
   publish_at: string;
   data: number[];
   content: {
@@ -12,7 +12,7 @@ type Props = {
   }[];
 };
 
-export default function ContentCard({ content, publish_at }: Props) {
+export default function ContentCard({ content, publish_at }: ContentCardProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   return (
     <Box

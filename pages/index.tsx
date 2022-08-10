@@ -68,6 +68,50 @@ const Home: NextPage = () => {
         "javascript",
       ],
     },
+    {
+      title: "Dicoding",
+      type: "website",
+      link: "https://www.dicoding.com",
+      categories: ["fullstack-web"],
+      tags: [
+        "android",
+        "java",
+        "kotlin",
+        "flutter",
+        "react.js",
+        "vue.js",
+        "laravel",
+      ],
+    },
+
+    {
+      title: "Array id",
+      type: "youtube",
+      link: "https://www.youtube.com/channel/UCQzfClEEDfuVuES-GQUy6aw?app=desktop",
+      categories: ["fullstack-web"],
+      tags: ["html", "css", "javascript", "react.js"],
+    },
+    {
+      title: "BuildWith Angga",
+      type: "website",
+      link: "https://buildwithangga.com/",
+      categories: ["fullstack-web"],
+      tags: ["html", "css", "javascript", "react.js", "laravel"],
+    },
+    {
+      title: "Other Level",
+      type: "youtube",
+      link: "https://www.youtube.com/c/OtherLevel%E2%80%99s/featured",
+      categories: ["fullstack-web"],
+      tags: ["html", "css", "javascript"],
+    },
+    {
+      title: "Egator Tutorial",
+      type: "youtube",
+      link: "https://www.youtube.com/c/EGATORTUTORIALS/videos",
+      categories: ["fullstack-web"],
+      tags: ["html", "css", "javascript", "react.js"],
+    },
   ]);
   return (
     <>
@@ -103,7 +147,7 @@ const Home: NextPage = () => {
                   bg: "whiteAlpha.300",
                 }}
               >
-                <Box flex="1">
+                <Box width="16">
                   <Box
                     mr="4"
                     bg={`${
@@ -121,7 +165,7 @@ const Home: NextPage = () => {
                     </Box>
                   </Box>
                 </Box>
-                <Box>
+                <Box flex="1">
                   <Heading size="md" marginBottom="4">
                     {item.title}
                   </Heading>

@@ -1609,6 +1609,11 @@ fastq@^1.6.0:
   dependencies:
     reusify "^1.0.4"
 
+feather-icons-react@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/feather-icons-react/-/feather-icons-react-0.5.0.tgz#74f8b398f4031491901aa47ff470899e408df159"
+  integrity sha512-k7y6JnghcwLi3uo5SaSnnngfHOE+IPpAFzlsmNhlXwbP8jev2rOYbEq1g5lhMglbV934KhcaSbo3DYV32I3/Ug==
+
 file-entry-cache@^6.0.1:
   version "6.0.1"
   resolved "https://registry.npmjs.org/file-entry-cache/-/file-entry-cache-6.0.1.tgz"

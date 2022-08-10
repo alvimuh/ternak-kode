@@ -1,8 +1,23 @@
 import type { AppProps } from "next/app";
-import { extendTheme } from "@chakra-ui/react";
 import { ChakraProvider } from "@chakra-ui/react";
 import "../style.css";
-import theme from "./theme";
+import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
+
+const config: ThemeConfig = {
+  initialColorMode: "dark",
+  useSystemColorMode: true,
+};
+const styles = {
+  global: {
+    body: {
+      bg: "url('/blur.jpg')",
+      bgSize: "cover",
+    },
+  },
+};
+
+// 3. extend the theme
+export const theme = extendTheme({ config, styles });
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -141,6 +141,8 @@ const Home: NextPage = () => {
                 mb="4"
                 borderRadius="4"
                 as="a"
+                target="_blank"
+                rel="noreferrer"
                 href={item.link}
                 display="flex"
                 _hover={{

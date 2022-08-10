@@ -1,8 +1,9 @@
 // pages/_document.js
 
 import { Box, Button, ColorModeScript, Image, Text } from "@chakra-ui/react";
-import NextDocument, { Html, Head, Main, NextScript } from "next/document";
+import NextDocument, { Html, Main, NextScript } from "next/document";
 import theme from "./theme";
+import Head from "next/head";
 
 export default class Document extends NextDocument {
   render() {

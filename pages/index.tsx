@@ -83,7 +83,20 @@ const Home: NextPage = () => {
         "laravel",
       ],
     },
-
+    {
+      title: "Fikri Ikhsan",
+      type: "youtube",
+      link: "https://www.youtube.com/c/EricoDarmawanHandoyo",
+      categories: ["fullstack-web"],
+      tags: ["dart", "flutter", "android", "kotlin"],
+    },
+    {
+      title: "Prawito Hudoro",
+      type: "youtube",
+      link: "https://www.youtube.com/channel/UC4k3OBYU4q6MuspHVzZlkew",
+      categories: ["fullstack-web"],
+      tags: ["javascript", "react native", "react.js"],
+    },
     {
       title: "Array id",
       type: "youtube",

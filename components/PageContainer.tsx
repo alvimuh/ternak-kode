@@ -9,7 +9,14 @@ export default function PageContainer({ children }: Props) {
   return (
     <Fragment>
       <Box py={8} as="header" alignItems="center">
-        <Image src="/logo.svg" width={300} mx="auto" py={4} mb={3} />
+        <Image
+          src="/logo.svg"
+          width={300}
+          mx="auto"
+          py={4}
+          mb={3}
+          alt="Ternak Kode"
+        />
         <Box textAlign="center">
           <Button
             as="a"

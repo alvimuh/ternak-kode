@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Box, Text } from "@chakra-ui/react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Navigation } from "swiper";
+import Image from "next/image";
 import "swiper/css";
 
 export type ContentCardProps = {
@@ -45,7 +46,7 @@ export default function ContentCard({ content, publish_at }: ContentCardProps) {
       >
         {content.map((item, index) => (
           <SwiperSlide key={index}>
-            <img src={item.img} />
+            <Image src={item.img} alt={"Gambar " + index} />
           </SwiperSlide>
         ))}
       </Swiper>

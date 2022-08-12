@@ -84,11 +84,26 @@ const Home: NextPage = () => {
       ],
     },
     {
-      title: "Fikri Ikhsan",
+      title: "Erico Darmawan Handoyo",
       type: "youtube",
       link: "https://www.youtube.com/c/EricoDarmawanHandoyo",
       categories: ["fullstack-web"],
       tags: ["dart", "flutter", "android", "kotlin"],
+    },
+    {
+      title: "Sekolah Koding",
+      type: "website",
+      link: "https://www.sekolahkoding.com",
+      categories: ["fullstack-web"],
+      tags: [
+        "laravel",
+        "react.js",
+        "vue.js",
+        "php",
+        "html",
+        "css",
+        "javascript",
+      ],
     },
     {
       title: "Prawito Hudoro",

@@ -15,7 +15,7 @@ export default function PageContainer({ children }: Props) {
           mx="auto"
           py={4}
           mb={3}
-          alt="Ternak Kode"
+          alt="Ternak Kode Logo"
         />
         <Box textAlign="center">
           <Button

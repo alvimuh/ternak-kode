@@ -20,7 +20,7 @@ export default function PageContainer({ children }: Props) {
         <Box textAlign="center">
           <Button
             as="a"
-            href="https://bit.ly/ternakkode"
+            href="https://bit.ly/jointernakkode"
             target="_blank"
             bgColor="#5865F2"
             py="2"

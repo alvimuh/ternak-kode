@@ -13,16 +13,7 @@ import PageContainer from "../components/PageContainer";
 import { Icon } from "ts-react-feather-icons";
 import Head from "next/head";
 import axios from "axios";
-
-type Resource = {
-  _id: string;
-  title: string;
-  type: string;
-  url: string;
-  link: string;
-  categories: string[];
-  tags: string[];
-};
+import { ResourceType } from "../utils/types";
 const type = [
   {
     name: "youtube",
@@ -205,7 +196,7 @@ const Home: NextPage = () => {
               />
             </Box>
           ) : (
-            resource.data.map((item: Resource, index: Key) => {
+            resource.data.map((item: ResourceType, index: Key) => {
               const iconName: any = type.find(
                 (element) => element.name === item.type
               )?.icon;

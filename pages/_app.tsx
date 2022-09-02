@@ -5,15 +5,19 @@ import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
 
 const config: ThemeConfig = {
   initialColorMode: "dark",
-  useSystemColorMode: true,
+  useSystemColorMode: false,
 };
+
 const styles = {
-  global: {
+  global: (props: any) => ({
     body: {
-      bg: "url('/blur.jpg')",
+      bg:
+        props.colorMode === "dark"
+          ? "url('/blur.jpg')"
+          : "url('/blur_light.jpg')",
       bgSize: "cover",
     },
-  },
+  }),
 };
 
 // 3. extend the theme

@@ -26,8 +26,27 @@ export default function PageContainer({ children }: Props) {
             py="2"
             px="6"
             borderRadius="full"
+            maxWidth="200px"
+            display="block"
+            margin="auto"
           >
             Join Server Discord
+          </Button>
+          <Button
+            as="a"
+            href="https://saweria.co/alvimuh"
+            target="_blank"
+            bgColor="#ffff"
+            color="#5865F2"
+            py="2"
+            px="6"
+            borderRadius="full"
+            maxWidth="200px"
+            display="block"
+            margin="auto"
+            marginTop="3"
+          >
+            Link Saweria
           </Button>
         </Box>
       </Box>

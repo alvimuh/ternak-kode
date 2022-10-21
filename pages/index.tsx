@@ -141,6 +141,12 @@ const Home: NextPage = () => {
       tags: ["html", "css", "javascript", "react.js"],
     },
   ]);
+
+  useEffect(() => {
+    fetch("/api/hello")
+      .then((res) => res.json())
+      .then((res) => console.log(res));
+  }, []);
   return (
     <>
       <Head>
